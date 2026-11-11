@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C74FF"/>
+      <stop offset="1" stop-color="#3B2FD1"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E4E1FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="216" fill="url(#bg)"/>
+  <!-- speed streaks -->
+  <rect x="236" y="300" width="132" height="44" rx="22" fill="#FFFFFF" opacity="0.35"/>
+  <rect x="196" y="404" width="172" height="44" rx="22" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="236" y="508" width="132" height="44" rx="22" fill="#FFFFFF" opacity="0.35"/>
+  <!-- stacked chevrons pointing down: segments arriving -->
+  <path d="M424 268 L588 432 L752 268" fill="none" stroke="url(#fg)" stroke-width="76" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  <path d="M424 420 L588 584 L752 420" fill="none" stroke="url(#fg)" stroke-width="76" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- tray -->
+  <rect x="380" y="700" width="416" height="68" rx="34" fill="url(#fg)"/>
+</svg>

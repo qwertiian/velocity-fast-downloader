@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: FAQ & troubleshooting
+    url: https://github.com/qwertiian/velocity-fast-downloader/blob/main/guide/FAQ.md
+    about: Most questions are answered here.
+  - name: Report a security vulnerability
+    url: https://github.com/qwertiian/velocity-fast-downloader/security/advisories/new
+    about: Please report security issues privately.
