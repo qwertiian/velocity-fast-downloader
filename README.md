@@ -10,10 +10,17 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/qwertiian/velocity-fast-downloader?label=download&color=5b4ff0"></a>
-  <a href="https://github.com/qwertiian/velocity-fast-downloader/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/qwertiian/velocity-fast-downloader/total?color=5b4ff0"></a>
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-Windows%2010%2F11-5b4ff0">
-  <img alt="Price" src="https://img.shields.io/badge/price-free-2ea44f">
+  <a href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe"><img alt="Download for Windows" src="https://img.shields.io/badge/%E2%AC%87%20%20Download%20for%20Windows-5b4ff0?style=for-the-badge"></a>
+  &nbsp;
+  <a href="https://qwertiian.github.io/velocity-fast-downloader/"><img alt="Website" src="https://img.shields.io/badge/%F0%9F%8C%90%20%20Website-24243a?style=for-the-badge"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/qwertiian/velocity-fast-downloader?style=flat-square&label=version&color=5b4ff0&labelColor=24243a"></a>
+  <a href="https://github.com/qwertiian/velocity-fast-downloader/releases"><img alt="Total downloads" src="https://img.shields.io/github/downloads/qwertiian/velocity-fast-downloader/total?style=flat-square&label=downloads&color=5b4ff0&labelColor=24243a"></a>
+  <img alt="Windows 10 and 11" src="https://img.shields.io/badge/windows-10%20%7C%2011-5b4ff0?style=flat-square&labelColor=24243a">
+  <img alt="Free" src="https://img.shields.io/badge/price-free-5b4ff0?style=flat-square&labelColor=24243a">
+  <img alt="No ads or tracking" src="https://img.shields.io/badge/ads%20%26%20tracking-none-5b4ff0?style=flat-square&labelColor=24243a">
 </p>
 
 ---
@@ -119,3 +126,4 @@ paywalls, logins or website restrictions.
 - [Privacy policy](PRIVACY.md): Velocity collects nothing.
 - [Security policy](SECURITY.md): how to report vulnerabilities.
 - [Licence](LICENSE): free for personal and commercial use.
+- [Third-party notices](THIRD_PARTY_NOTICES.txt): open-source components included in Velocity and their licences (also in the app under Help → Third-party licences).

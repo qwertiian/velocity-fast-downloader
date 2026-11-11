@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.1
+
+- New: **Help → Third-party licences** shows the licences of the open-source components included in Velocity.
+- First release delivered through the in-app updater.
+
 ## v0.2.0
 
 **New**
