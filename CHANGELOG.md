@@ -1,5 +1,25 @@
 # Changelog
 
+## v0.2.0
+
+**New**
+- Classic Windows interface: menu bar, toolbar, folder tree, sortable multi-select list,
+  right-click menus, block progress bars, tabbed Properties and Options, setup wizard.
+- Classic and Classic Dark themes (View menu), or follow Windows.
+- Runs in the notification area: closing the window keeps downloading; optional start with Windows.
+- Clipboard catcher: copy a download link and Velocity asks whether to download it.
+- Automatic, signature-verified updates from inside the app.
+- Live download map (per-connection progress) in Properties.
+- Detects links that return a web page instead of the file, and explains what to do.
+
+**Security**
+- Downloads are tagged as coming from the internet (Mark of the Web), so Windows checks them like browser downloads.
+- Downloads can't be saved into Windows system folders.
+- The app window is locked to its own content.
+
+**Fixed**
+- Light theme couldn't be selected.
+
 ## v0.1.0 — First public preview (Windows)
 
 **New**

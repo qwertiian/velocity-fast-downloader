@@ -52,7 +52,16 @@ Velocity downloads files from the internet faster and more reliably than a brows
 - **🎚️ Speed limits,** overall or per download, so the rest of your household can still browse.
 - **🗂️ Organized.** Automatic categories (Videos, Documents, Archives…), search, filters and
   statistics.
-- **🌗 Clean, modern interface** with light and dark themes and keyboard shortcuts.
+- **📋 Catches your downloads.** Copy a download link in your browser ("Copy link address")
+  and Velocity pops up asking whether to download it.
+- **🕘 Works in the background.** Lives in the notification area, keeps downloading when the
+  window is closed, and can start with Windows.
+- **🔄 Updates itself.** New versions install from inside the app, and only after their digital
+  signature is verified.
+- **🧭 Honest about links.** If a link opens a web page instead of the file, Velocity tells you
+  and explains what to do, instead of saving the page silently.
+- **🖥️ Classic Windows interface:** menu bar, toolbar, folder tree, sortable list and right-click
+  menus, with Classic (light) and Classic Dark themes.
 - **🔒 Private.** No account, no ads, no telemetry. Your history stays on your computer.
 
 > **About speed:** extra connections help most with distant or busy servers. Velocity can't make
@@ -62,8 +71,9 @@ Velocity downloads files from the internet faster and more reliably than a brows
 
 1. **Download** the installer above and run it.
 2. **Choose** your download folder on first launch.
-3. **Copy any download link** in your browser, click into Velocity and press **Ctrl + V**.
-   You can also click **Add download** and paste the link.
+3. **Copy any download link** in your browser (right-click → *Copy link address*). Velocity
+   pops up and asks whether to download it. You can also click **Add URL** (or press
+   **Ctrl + N**) and paste the link.
 4. Velocity checks the link, shows the file name and size, and starts downloading.
 
 Full guide: **[How to use Velocity](guide/USER_GUIDE.md)**
@@ -76,8 +86,11 @@ Full guide: **[How to use Velocity](guide/USER_GUIDE.md)**
 | `Ctrl + V` | Paste a link anywhere to add it |
 | `Ctrl + F` | Search downloads |
 | `Space` | Pause / resume the selected download |
-| `Delete` | Remove the selected download from the list |
-| `Enter` | Open the file, or show details |
+| `Delete` | Remove the selected download(s) from the list |
+| `Enter` | Open the file (or show properties if unfinished) |
+| `Alt + Enter` | Properties |
+| `Ctrl + A` | Select all |
+| Right-click | All actions for the selected downloads |
 
 ## Help
 
@@ -89,10 +102,11 @@ Full guide: **[How to use Velocity](guide/USER_GUIDE.md)**
 ## Roadmap
 
 - [x] Windows app with multi-connection downloads, pause/resume, queue, speed limits, statistics
+- [x] Background mode, clipboard catcher, classic interface (v0.2)
 - [ ] Browser extensions (Chrome, Edge, Firefox) to send downloads to Velocity with one click
 - [ ] macOS and Linux versions
 - [ ] Scheduled downloads and multiple queues
-- [ ] Automatic updates
+- [x] Automatic updates (signed)
 - [ ] Code-signed installers (removes the Windows warning)
 
 ## Responsible use

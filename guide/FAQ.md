@@ -3,6 +3,25 @@
 ### Is Velocity really free?
 Yes. No price, no ads, no "pro" version, no account.
 
+### I pasted a link to a .zip/.rar but Velocity says it's a web page
+The site only gives the file to your browser (sign-in, captcha, countdown or a session cookie).
+Start the download in your browser, then copy the real link from the browser's Downloads list
+(**Ctrl + J** → right-click → *Copy download link*) and paste it into Velocity. Hosts that tie
+even that link to your browser session will be supported by the upcoming browser extension.
+
+### I closed the window. Is Velocity still running?
+Yes, if *Keep running in the notification area* is on (the default). Downloads continue. Click
+the Velocity icon next to the clock to reopen it, or right-click it → **Exit Velocity** to quit.
+
+### How do updates work?
+Velocity checks for new versions on launch (switchable in Options → Updates & privacy) and
+shows **Install and restart**. Updates come only from the official releases and are installed
+only if their digital signature is valid.
+
+### The "Download this file?" window keeps popping up
+It appears when you copy a link to a file. Tick **Don't ask again** in it, or switch off
+*Offer to download links I copy* in **Tools → Options → General** (or the Tools menu).
+
 ### Is it safe?
 Velocity never runs downloaded files on its own, verifies checksums when you give one, refuses
 to resume a file that changed on the server, and contains no tracking. Check that your
@@ -41,15 +60,16 @@ Usually the disk is full or the folder isn't writable. Free some space or choose
 folder, then press **Retry**. Progress is kept.
 
 ### Where are my files?
-In your download folder (Settings → Download folder). Click **📂** on any row to jump there.
+In your download folder (**Tools → Options → Save to**). Right-click any download → **Open folder** to jump there.
 Unfinished files end in `.vpart`. Don't open those; they become the real file when complete.
 
 ### Can I download YouTube/Netflix/streaming videos?
 No. Velocity downloads direct file links only and doesn't bypass DRM or website restrictions.
 
 ### Can it grab downloads from my browser automatically?
-Browser extensions for Chrome, Edge and Firefox are next on the roadmap. For now, copy the link
-and paste it into Velocity.
+Partly: copy a download link and Velocity offers to download it. Full browser integration
+(intercepting downloads directly, including from session-protected sites) comes with the
+upcoming extensions for Chrome, Edge and Firefox.
 
 ### Still stuck?
 [Open an issue](https://github.com/qwertiian/velocity-fast-downloader/issues/new?template=bug_report.md)
