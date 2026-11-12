@@ -10,9 +10,9 @@ Microsoft and automatic updates. The direct installer on the GitHub Releases pag
 ### I pasted a link to a .zip/.rar but Velocity says it's a web page
 The site only gives the file to your browser (sign-in, captcha, countdown or a session cookie).
 Start the download in your browser, then copy the real link from the browser's Downloads list
-(**Ctrl + J** → right-click → *Copy download link*) and paste it into Velocity. Easier: install the
-[browser extension](BROWSER_EXTENSION.md), click the site's download button, and Velocity takes
-over with your session (works for hosts that need you to be signed in).
+(**Ctrl + J** → right-click → *Copy download link*) and paste it into Velocity. Hosts that tie
+even that link to your browser session will work with the Velocity browser extension, coming
+soon to the Chrome Web Store, Edge Add-ons and Firefox Add-ons.
 
 ### I closed the window. Is Velocity still running?
 Yes, if *Keep running in the notification area* is on (the default). Downloads continue. Click
@@ -73,9 +73,10 @@ Unfinished files end in `.vpart`. Don't open those; they become the real file wh
 No. Velocity downloads direct file links only and doesn't bypass DRM or website restrictions.
 
 ### Can it grab downloads from my browser automatically?
-Yes. Install the **[Velocity browser extension](BROWSER_EXTENSION.md)** and every download you
-click in Chrome or Edge opens in Velocity instead of the browser's Save dialog. If Velocity isn't
-running, the browser downloads as usual.
+Today: copy a download link and Velocity offers to download it. The **Velocity browser
+extension** is coming soon to the Chrome Web Store, Edge Add-ons and Firefox Add-ons. With it,
+every download you click opens in Velocity instead of the browser's Save dialog (the app side
+is already built into Velocity 0.3.0).
 
 ### Can Velocity make Steam or Epic Games downloads faster?
 No, and no other download manager can either. Steam and the Epic Games Launcher don't download

@@ -2,9 +2,9 @@
 
 ## v0.3.0
 
-- New: **browser integration.** With the [Velocity browser extension](guide/BROWSER_EXTENSION.md),
-  clicking a download in Chrome, Edge, Brave or Opera opens it in Velocity instead of the
-  browser's Save dialog.
+- New: **browser integration, app side.** Velocity is ready for the Velocity browser extension
+  (coming soon to the Chrome Web Store, Edge Add-ons and Firefox Add-ons): clicked downloads
+  will open in Velocity instead of the browser's Save dialog.
 - New: downloads from sites where you need to be signed in. The extension passes that site's
   cookies to Velocity on your PC only; they are never saved to disk.
 - If Velocity isn't running, or a link opens a web page, the browser downloads as usual.
