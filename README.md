@@ -37,6 +37,7 @@
 |---|---|---|
 | **Windows 10 / 11 (64-bit)** | [**Microsoft Store**](https://apps.microsoft.com/detail/9NGHWBDW4TGB) | ⭐ **Recommended.** Signed by Microsoft, installs in one click, updates automatically, no security warning. |
 | Windows 10 / 11 (64-bit) | [Velocity_x64-setup.exe](https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe) | Direct installer, if you can't use the Store. No admin rights needed. Updates itself. |
+| Browser extension (Chrome, Edge, Brave, Opera) | [Velocity-browser-extension.zip](https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity-browser-extension.zip) | **New:** clicked downloads open in Velocity. [How to install](guide/BROWSER_EXTENSION.md) |
 | Windows (IT / managed PCs) | [Velocity_x64.msi](https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64.msi) | For deployment tools such as Intune or Group Policy. |
 | macOS | Coming soon | |
 | Linux | Coming soon | |
@@ -67,8 +68,11 @@ Velocity downloads files from the internet faster and more reliably than a brows
 - **🎚️ Speed limits,** overall or per download, so the rest of your household can still browse.
 - **🗂️ Organized.** Automatic categories (Videos, Documents, Archives…), search, filters and
   statistics.
-- **📋 Catches your downloads.** Copy a download link in your browser ("Copy link address")
-  and Velocity pops up asking whether to download it.
+- **🧩 Takes over browser downloads (new).** With the [browser extension](guide/BROWSER_EXTENSION.md),
+  clicking a download in Chrome, Edge, Brave or Opera opens it in Velocity instead of the Save
+  dialog, including from sites where you need to be signed in.
+- **📋 Catches copied links.** Copy a download link ("Copy link address") and Velocity pops up
+  asking whether to download it.
 - **🕘 Works in the background.** Lives in the notification area, keeps downloading when the
   window is closed, and can start with Windows.
 - **🔄 Updates itself.** New versions install from inside the app, and only after their digital
@@ -86,9 +90,9 @@ Velocity downloads files from the internet faster and more reliably than a brows
 
 1. **Install** it from the [Microsoft Store](https://apps.microsoft.com/detail/9NGHWBDW4TGB) (one click), or run the direct installer.
 2. **Choose** your download folder on first launch.
-3. **Copy any download link** in your browser (right-click → *Copy link address*). Velocity
-   pops up and asks whether to download it. You can also click **Add URL** (or press
-   **Ctrl + N**) and paste the link.
+3. **Add the [browser extension](guide/BROWSER_EXTENSION.md)** (one minute), then just click
+   download links on any website and Velocity takes over. Or copy a download link
+   (right-click → *Copy link address*), or click **Add URL** (**Ctrl + N**) and paste it.
 4. Velocity checks the link, shows the file name and size, and starts downloading.
 
 Full guide: **[How to use Velocity](guide/USER_GUIDE.md)**
@@ -111,12 +115,13 @@ Full guide: **[How to use Velocity](guide/USER_GUIDE.md)**
 
 - 📘 [Installation guide](guide/INSTALL.md)
 - 🧭 [User guide](guide/USER_GUIDE.md)
+- 🧩 [Browser extension](guide/BROWSER_EXTENSION.md)
 - ❓ [FAQ & troubleshooting](guide/FAQ.md)
 - 🐞 [Report a bug](https://github.com/qwertiian/velocity-fast-downloader/issues/new?template=bug_report.md) · 💡 [Request a feature](https://github.com/qwertiian/velocity-fast-downloader/issues/new?template=feature_request.md)
 
 ## Coming soon
 
-- 🧩 **Browser extensions** for Chrome, Edge and Firefox: send downloads to Velocity with one click
+- 🧩 **Browser extension** in the Chrome Web Store, Edge Add-ons and Firefox Add-ons (it already works in Chrome, Edge, Brave and Opera, [installed manually](guide/BROWSER_EXTENSION.md))
 - 🗓️ **Scheduled downloads** and multiple queues
 - 🍎 **macOS and Linux** versions
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.3.0
+
+- New: **browser integration.** With the [Velocity browser extension](guide/BROWSER_EXTENSION.md),
+  clicking a download in Chrome, Edge, Brave or Opera opens it in Velocity instead of the
+  browser's Save dialog.
+- New: downloads from sites where you need to be signed in. The extension passes that site's
+  cookies to Velocity on your PC only; they are never saved to disk.
+- If Velocity isn't running, or a link opens a web page, the browser downloads as usual.
+- New: right-click a link → **Download with Velocity**.
+- The "Download this file?" window now queues several links.
+- New setting: Options → General → *Take over downloads from my browser*.
+
 ## v0.2.1
 
 - New: **Help → Third-party licences** shows the licences of the open-source components included in Velocity.

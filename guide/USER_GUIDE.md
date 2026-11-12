@@ -22,6 +22,9 @@ Everything can be changed later in **Tools → Options**.
 - **Find box (top right):** filters the list by name or address.
 
 ## 3. Adding a download
+- **Click it in your browser:** with the [Velocity browser extension](BROWSER_EXTENSION.md),
+  clicking any download link opens Velocity's **"Download from browser"** window instead of the
+  browser's Save dialog. You can also right-click a link → **Download with Velocity**.
 - **Copy a link:** in your browser, right-click a download link → *Copy link address*.
   A small **"Download this file?"** window appears near the clock. Choose **Download**,
   **Later** (adds it paused) or **Ignore**.
@@ -38,7 +41,8 @@ Some sites only hand out the file to your browser: you must be signed in, solve 
 wait for a countdown. Click the download button on the website, and when the real download
 starts, copy its link from your browser's Downloads list (**Ctrl + J** → right-click → *Copy
 download link*) and paste it into Velocity. Some file hosts tie even that link to your browser
-session. Those will work with the upcoming Velocity browser extension.
+session: with the [browser extension](BROWSER_EXTENSION.md), just click the site's download
+button and Velocity takes over with your session.
 
 ## 4. Managing downloads
 

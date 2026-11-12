@@ -10,8 +10,9 @@ Microsoft and automatic updates. The direct installer on the GitHub Releases pag
 ### I pasted a link to a .zip/.rar but Velocity says it's a web page
 The site only gives the file to your browser (sign-in, captcha, countdown or a session cookie).
 Start the download in your browser, then copy the real link from the browser's Downloads list
-(**Ctrl + J** → right-click → *Copy download link*) and paste it into Velocity. Hosts that tie
-even that link to your browser session will be supported by the upcoming browser extension.
+(**Ctrl + J** → right-click → *Copy download link*) and paste it into Velocity. Easier: install the
+[browser extension](BROWSER_EXTENSION.md), click the site's download button, and Velocity takes
+over with your session (works for hosts that need you to be signed in).
 
 ### I closed the window. Is Velocity still running?
 Yes, if *Keep running in the notification area* is on (the default). Downloads continue. Click
@@ -72,9 +73,28 @@ Unfinished files end in `.vpart`. Don't open those; they become the real file wh
 No. Velocity downloads direct file links only and doesn't bypass DRM or website restrictions.
 
 ### Can it grab downloads from my browser automatically?
-Partly: copy a download link and Velocity offers to download it. Full browser integration
-(intercepting downloads directly, including from session-protected sites) comes with the
-upcoming extensions for Chrome, Edge and Firefox.
+Yes. Install the **[Velocity browser extension](BROWSER_EXTENSION.md)** and every download you
+click in Chrome or Edge opens in Velocity instead of the browser's Save dialog. If Velocity isn't
+running, the browser downloads as usual.
+
+### Can Velocity make Steam or Epic Games downloads faster?
+No, and no other download manager can either. Steam and the Epic Games Launcher don't download
+games as normal web links. They fetch thousands of small encrypted chunks over their own
+signed-in protocol and already use many connections at once. A separate app can't take those
+downloads over without your account login and the games' decryption keys, which would break
+their terms of service and risk your account.
+
+What actually helps:
+- **Steam:** Settings → Downloads → change **Download Region** to a nearby, less busy server
+  (try two or three), make sure **Limit bandwidth** is off, and turn off *Throttle downloads
+  while streaming*. Clearing the download cache (same page) fixes stuck or slow downloads.
+- **Epic Games Launcher:** Settings → turn off *Throttle downloads*. Pause and resume a slow
+  download to get a different server.
+- **Both:** use a wired connection, install to an SSD (slow disks are often the real limit,
+  shown as high disk use in Task Manager), and pause other downloads and streams.
+
+Velocity speeds up regular downloads from websites: installers, ISOs, archives, videos and
+files from file hosts.
 
 ### Still stuck?
 [Open an issue](https://github.com/qwertiian/velocity-fast-downloader/issues/new?template=bug_report.md)

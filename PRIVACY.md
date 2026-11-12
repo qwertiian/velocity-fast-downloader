@@ -14,7 +14,15 @@ Velocity is designed to collect nothing about you.
   without your click.
 - **Local data:** your download list, settings and statistics are stored in a database on your
   own computer (`%APPDATA%\dev.velocitydm.desktop\` on Windows). Delete that folder to erase it.
-- **Browser data:** the app does not read your browser's cookies, history or passwords.
+- **Browser data:** the app itself never reads your browser's cookies, history or passwords.
+- **Browser extension (optional):** when you click a download, the Velocity extension sends
+  the download's address, the page it came from, your browser's user-agent string and the
+  cookies for **that download's website only** to the Velocity app **on your own computer**
+  (127.0.0.1). This lets sites that need you to be signed in work. Velocity keeps these cookies
+  in memory for the current session only, uses them only to fetch that file from that website,
+  and never saves them to disk or sends them anywhere else. The extension collects no browsing
+  history, has no analytics, ignores private/incognito windows, and stores only its own two
+  settings (on/off and the minimum file size) in your browser.
 - **Website:** the download website is a static page. It asks GitHub's public API for the
   latest version number; GitHub's [privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)
   applies to that request and to downloads from GitHub.
