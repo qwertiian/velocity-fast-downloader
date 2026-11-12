@@ -28,7 +28,7 @@ to resume a file that changed on the server, and contains no tracking. Check tha
 installer's SHA-256 matches the release page ([how](INSTALL.md#windows-smartscreen-warning)).
 
 ### Why does Windows say "Windows protected your PC"?
-The installer isn't code-signed yet (certificates cost money; it's on the roadmap). Click
+The installer isn't code-signed yet; a Microsoft Store release that fixes this is coming soon. Click
 **More info → Run anyway**.
 
 ### Will it make every download faster?

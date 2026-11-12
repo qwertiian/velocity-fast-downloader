@@ -106,15 +106,14 @@ Full guide: **[How to use Velocity](guide/USER_GUIDE.md)**
 - ❓ [FAQ & troubleshooting](guide/FAQ.md)
 - 🐞 [Report a bug](https://github.com/qwertiian/velocity-fast-downloader/issues/new?template=bug_report.md) · 💡 [Request a feature](https://github.com/qwertiian/velocity-fast-downloader/issues/new?template=feature_request.md)
 
-## Roadmap
+## Coming soon
 
-- [x] Windows app with multi-connection downloads, pause/resume, queue, speed limits, statistics
-- [x] Background mode, clipboard catcher, classic interface (v0.2)
-- [ ] Browser extensions (Chrome, Edge, Firefox) to send downloads to Velocity with one click
-- [ ] macOS and Linux versions
-- [ ] Scheduled downloads and multiple queues
-- [x] Automatic updates (signed)
-- [ ] Code-signed installers (removes the Windows warning)
+- 🧩 **Browser extensions** for Chrome, Edge and Firefox: send downloads to Velocity with one click
+- 🛍️ **Microsoft Store** release: install without the Windows warning
+- 🗓️ **Scheduled downloads** and multiple queues
+- 🍎 **macOS and Linux** versions
+
+Velocity updates itself, so new features arrive automatically.
 
 ## Responsible use
 

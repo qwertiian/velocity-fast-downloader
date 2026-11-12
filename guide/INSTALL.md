@@ -44,5 +44,5 @@ Your history database stays in `%APPDATA%\dev.velocitydm.desktop\`. Delete that 
 you want to remove everything. Files you downloaded are never touched.
 
 ## macOS and Linux
-Not available yet; they're on the [roadmap](../README.md#roadmap).
+Not available yet; they're [coming soon](../README.md#coming-soon).
 **Watch** this repository (top right → Watch → Custom → Releases) to be notified.
