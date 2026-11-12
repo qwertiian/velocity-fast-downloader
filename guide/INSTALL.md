@@ -2,7 +2,14 @@
 
 ## Windows 10 / 11
 
-### Standard install (recommended)
+### Microsoft Store (recommended)
+1. Open **[Velocity-Fast-Downloader on the Microsoft Store](https://apps.microsoft.com/detail/9NGHWBDW4TGB)**, or search *Velocity-Fast-Downloader* in the Microsoft Store app.
+2. Click **Get** (or **Install**).
+3. Open it from the Start menu.
+
+The Store version is signed by Microsoft (no security warning) and updates automatically through the Store.
+
+### Direct installer
 1. Download **[Velocity_x64-setup.exe](https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe)**.
 2. Double-click it. If Windows shows a warning, see [below](#windows-smartscreen-warning).
 3. Follow the installer. It installs for your user account only, so no administrator rights

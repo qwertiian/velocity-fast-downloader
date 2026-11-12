@@ -3,6 +3,10 @@
 ### Is Velocity really free?
 Yes. No price, no ads, no "pro" version, no account.
 
+### Where should I download it from?
+The **[Microsoft Store](https://apps.microsoft.com/detail/9NGHWBDW4TGB)** is recommended: one-click install, signed by
+Microsoft and automatic updates. The direct installer on the GitHub Releases page is the same app.
+
 ### I pasted a link to a .zip/.rar but Velocity says it's a web page
 The site only gives the file to your browser (sign-in, captcha, countdown or a session cookie).
 Start the download in your browser, then copy the real link from the browser's Downloads list
@@ -28,8 +32,9 @@ to resume a file that changed on the server, and contains no tracking. Check tha
 installer's SHA-256 matches the release page ([how](INSTALL.md#windows-smartscreen-warning)).
 
 ### Why does Windows say "Windows protected your PC"?
-The installer isn't code-signed yet; a Microsoft Store release that fixes this is coming soon. Click
-**More info → Run anyway**.
+That only happens with the direct installer from GitHub, which isn't code-signed yet. Click
+**More info → Run anyway**, or install Velocity from the
+[Microsoft Store](https://apps.microsoft.com/detail/9NGHWBDW4TGB) instead. It's signed by Microsoft and never shows this warning.
 
 ### Will it make every download faster?
 Not always. Parallel connections help with distant, busy or per-connection-limited servers.

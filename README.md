@@ -10,10 +10,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe"><img alt="Download for Windows" src="https://img.shields.io/badge/%E2%AC%87%20%20Download%20for%20Windows-5b4ff0?style=for-the-badge"></a>
+  <a href="https://apps.microsoft.com/detail/9NGHWBDW4TGB?mode=direct"><img alt="Get it from Microsoft" src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe"><img alt="Direct download for Windows" src="https://img.shields.io/badge/%E2%AC%87%20%20Direct%20download-5b4ff0?style=for-the-badge"></a>
   &nbsp;
   <a href="https://qwertiian.github.io/velocity-fast-downloader/"><img alt="Website" src="https://img.shields.io/badge/%F0%9F%8C%90%20%20Website-24243a?style=for-the-badge"></a>
 </p>
+
+<p align="center">🎉 <b>Now available on the <a href="https://apps.microsoft.com/detail/9NGHWBDW4TGB">Microsoft Store</a></b>: signed by Microsoft, updates automatically, no security warning.</p>
 
 <p align="center">
   <a href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/qwertiian/velocity-fast-downloader?style=flat-square&label=version&color=5b4ff0&labelColor=24243a"></a>
@@ -27,18 +33,20 @@
 
 ## ⬇️ Download
 
-| Platform | File | Notes |
+| Platform | Get it | Notes |
 |---|---|---|
-| **Windows 10 / 11 (64-bit)** | [**Velocity_x64-setup.exe**](https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe) | Recommended. No admin rights needed. |
+| **Windows 10 / 11 (64-bit)** | [**Microsoft Store**](https://apps.microsoft.com/detail/9NGHWBDW4TGB) | ⭐ **Recommended.** Signed by Microsoft, installs in one click, updates automatically, no security warning. |
+| Windows 10 / 11 (64-bit) | [Velocity_x64-setup.exe](https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe) | Direct installer, if you can't use the Store. No admin rights needed. Updates itself. |
 | Windows (IT / managed PCs) | [Velocity_x64.msi](https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64.msi) | For deployment tools such as Intune or Group Policy. |
 | macOS | Coming soon | |
 | Linux | Coming soon | |
 
-All versions, release notes and checksums: **[Releases page](https://github.com/qwertiian/velocity-fast-downloader/releases)**
+All direct-download versions, release notes and checksums: **[Releases page](https://github.com/qwertiian/velocity-fast-downloader/releases)**
 
-> **First launch on Windows:** you may see *"Windows protected your PC"*. That appears for
-> new apps that aren't code-signed yet. Click **More info → Run anyway**.
-> [Why this happens and how to verify your download](guide/INSTALL.md#windows-smartscreen-warning)
+> **Using the direct installer?** Windows may show *"Windows protected your PC"*, because the
+> direct installer isn't code-signed yet. Click **More info → Run anyway**, or install from the
+> [Microsoft Store](https://apps.microsoft.com/detail/9NGHWBDW4TGB) instead, which never shows this warning.
+> [How to verify your download](guide/INSTALL.md#windows-smartscreen-warning)
 
 ---
 
@@ -76,7 +84,7 @@ Velocity downloads files from the internet faster and more reliably than a brows
 
 ## Quick start
 
-1. **Download** the installer above and run it.
+1. **Install** it from the [Microsoft Store](https://apps.microsoft.com/detail/9NGHWBDW4TGB) (one click), or run the direct installer.
 2. **Choose** your download folder on first launch.
 3. **Copy any download link** in your browser (right-click → *Copy link address*). Velocity
    pops up and asks whether to download it. You can also click **Add URL** (or press
@@ -109,7 +117,6 @@ Full guide: **[How to use Velocity](guide/USER_GUIDE.md)**
 ## Coming soon
 
 - 🧩 **Browser extensions** for Chrome, Edge and Firefox: send downloads to Velocity with one click
-- 🛍️ **Microsoft Store** release: install without the Windows warning
 - 🗓️ **Scheduled downloads** and multiple queues
 - 🍎 **macOS and Linux** versions
 

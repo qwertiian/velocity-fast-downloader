@@ -119,11 +119,11 @@
     <h1>Downloads that are <span class="grad">fast, resumable</span><br />and never start over.</h1>
     <p class="lead">Velocity splits files across multiple connections, survives dropped Wi-Fi and restarts, and keeps everything organized. Free for everyone.</p>
     <div class="cta">
-      <a id="primary" class="btn btn-primary" href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe">
+      <a id="primary" class="btn btn-primary" href="https://apps.microsoft.com/detail/9NGHWBDW4TGB?mode=direct">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M6 10l6 6 6-6M5 20h14"/></svg>
-        <span id="primary-label">Download for Windows</span>
+        <span id="primary-label">Get it from Microsoft Store</span>
       </a>
-      <div class="meta" id="meta">Windows 10 &amp; 11 · 64-bit · <a href="#download">other options</a></div>
+      <div class="meta" id="meta">Free · Windows 10 &amp; 11 · signed by Microsoft · <a href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe">or download the installer directly</a></div>
     </div>
     <p class="notice" id="other-os" hidden></p>
 
@@ -179,7 +179,8 @@
     <table class="dl">
       <thead><tr><th>Platform</th><th>Package</th><th>Size</th></tr></thead>
       <tbody>
-        <tr><td><b>Windows 10 / 11</b> (64-bit)</td><td><a data-asset="Velocity_x64-setup.exe" href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe">Installer (.exe), recommended</a></td><td data-size="Velocity_x64-setup.exe">—</td></tr>
+        <tr><td><b>Windows 10 / 11</b> (64-bit)</td><td><a href="https://apps.microsoft.com/detail/9NGHWBDW4TGB?mode=direct"><b>Microsoft Store</b></a>, recommended (no security warning, auto-updates)</td><td>—</td></tr>
+        <tr><td>Windows 10 / 11 (64-bit)</td><td><a data-asset="Velocity_x64-setup.exe" href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe">Direct installer (.exe)</a></td><td data-size="Velocity_x64-setup.exe">—</td></tr>
         <tr><td>Windows (managed PCs)</td><td><a data-asset="Velocity_x64.msi" href="https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64.msi">MSI package</a></td><td data-size="Velocity_x64.msi">—</td></tr>
         <tr><td>macOS</td><td class="soon">Coming soon</td><td class="soon">—</td></tr>
         <tr><td>Linux</td><td class="soon">Coming soon</td><td class="soon">—</td></tr>
@@ -198,7 +199,7 @@
     <h2>Questions</h2>
     <p class="sub">More in the <a href="https://github.com/qwertiian/velocity-fast-downloader/blob/main/guide/FAQ.md">full FAQ</a>.</p>
     <details><summary>Is it really free?</summary><p>Yes. No price, no ads, no premium tier and no account.</p></details>
-    <details><summary>Windows says "Windows protected your PC". Is it safe?</summary><p>That warning appears for new apps that aren't code-signed yet. Click <b>More info → Run anyway</b>. To be certain your file is genuine, compare its SHA-256 with <code>SHA256SUMS.txt</code> on the release page.</p></details>
+    <details><summary>Windows says "Windows protected your PC". Is it safe?</summary><p>That only happens with the direct installer, which isn't code-signed yet. Install from the <a href="https://apps.microsoft.com/detail/9NGHWBDW4TGB">Microsoft Store</a> to avoid it, or click <b>More info → Run anyway</b>. To be certain your file is genuine, compare its SHA-256 with <code>SHA256SUMS.txt</code> on the release page.</p></details>
     <details><summary>Will every download be faster?</summary><p>Not always. Multiple connections help most with distant or busy servers. Nothing can exceed your internet plan or what the server allows. Velocity's other big win is reliability: downloads don't start over.</p></details>
     <details><summary>Does it download streaming videos (YouTube, Netflix…)?</summary><p>No. Velocity downloads direct file links and respects DRM and website restrictions.</p></details>
     <details><summary>Is there a browser extension?</summary><p>It's on the roadmap. Until then, copy a download link in your browser and Velocity pops up and offers to download it.</p></details>
@@ -259,9 +260,9 @@
         if (tag) {
           meta.innerHTML = "";
           meta.appendChild(document.createTextNode(
-            "Version " + tag + (setup ? " · " + fmt(setup.size) : "") + " · Windows 10 & 11 · 64-bit · "));
+            "Version " + tag + " · Free · Windows 10 & 11 · signed by Microsoft · "));
           var a = document.createElement("a");
-          a.href = "#download"; a.textContent = "other options";
+          a.href = "https://github.com/qwertiian/velocity-fast-downloader/releases/latest/download/Velocity_x64-setup.exe"; a.textContent = "or download the installer directly";
           meta.appendChild(a);
         }
       })
